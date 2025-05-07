@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Personnel.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|solutionrelative:BIProjectCube\\Dim Personnel.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Produit.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|solutionrelative:BIProjectCube\\Dim Produit.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|solutionrelative:BIProjectCube\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Territoire.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|solutionrelative:BIProjectCube\\Dim Territoire.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Data Warehouse Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{1E92C152-5A15-44D7-A8D3-328BEBC01756}|BIProjectCube\\BIProjectCube.dwproj|solutionrelative:BIProjectCube\\Data Warehouse Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dim Personnel.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Personnel.dim",
+              "RelativeDocumentMoniker": "BIProjectCube\\Dim Personnel.dim",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Personnel.dim [Design]",
+              "RelativeToolTip": "BIProjectCube\\Dim Personnel.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T18:01:48.098Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Produit.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Produit.dim",
+              "RelativeDocumentMoniker": "BIProjectCube\\Dim Produit.dim",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Produit.dim [Design]",
+              "RelativeToolTip": "BIProjectCube\\Dim Produit.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T10:24:27.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Date.dim",
+              "RelativeDocumentMoniker": "BIProjectCube\\Dim Date.dim",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Date.dim [Design]",
+              "RelativeToolTip": "BIProjectCube\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T18:01:09.797Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Territoire.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Territoire.dim",
+              "RelativeDocumentMoniker": "BIProjectCube\\Dim Territoire.dim",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Dim Territoire.dim [Design]",
+              "RelativeToolTip": "BIProjectCube\\Dim Territoire.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T18:00:50.401Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data Warehouse Sales.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Data Warehouse Sales.cube",
+              "RelativeDocumentMoniker": "BIProjectCube\\Data Warehouse Sales.cube",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BI\\BIProjectCube\\BIProjectCube\\Data Warehouse Sales.cube [Design]",
+              "RelativeToolTip": "BIProjectCube\\Data Warehouse Sales.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T18:00:37.718Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
