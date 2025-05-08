@@ -1,0 +1,29 @@
+AVANT
+
+CREATE TABLE [DimPersonnel] (
+    [BusinessEntityID] int,
+    [JobTitle] nvarchar(50),
+    [BirthDate] nvarchar(10),
+    [MaritalStatus] nvarchar(1),
+    [Gender] nvarchar(1),
+    [HireDate] nvarchar(10),
+    [VacationHours] smallint,
+    [SickLeaveHours] smallint,
+    [CurrentFlag] bit,
+    [HireDateID] nvarchar(12),
+    [BirthDateID] nvarchar(12)
+)
+
+APRES
+
+
+CREATE TABLE [DimPersonnel] (
+    [BusinessEntityID] int primary key,
+    [HireDateID] nvarchar(12),
+    [BirthDateID] nvarchar(12),
+    [JobTitle] nvarchar(50),
+    [MaritalStatus] nvarchar(1),
+    [Gender] nvarchar(1),
+    [VacationHours] smallint,
+    [SickLeaveHours] smallint
+)

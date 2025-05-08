@@ -1,0 +1,39 @@
+AVANT
+
+CREATE TABLE [FactEnMagasinSales] (
+    [SalesOrderID] int,
+    [OrderDate] datetime,
+    [Status] tinyint,
+    [SalesPersonID] int,
+    [TerritoryID] int,
+    [SubTotal] money,
+    [TaxAmt] money,
+    [Freight] money,
+    [TotalDue] money,
+    [OrderQty] smallint,
+    [ProductID] int,
+    [UnitPrice] money,
+    [UnitPriceDiscount] money,
+    [LineTotal] numeric(38,6),
+    [OrderDateID] int
+)
+
+
+APRES
+
+CREATE TABLE [FactEnMagasinSales] (
+    [SalesOrderID] int primary key,
+    [SalesPersonID] int,
+    [TerritoryID] int,
+    [ProductID] int,
+    [OrderDateID] int,
+    [Status] tinyint,
+    [SubTotal] money,
+    [TaxAmt] money,
+    [Freight] money,
+    [TotalDue] money,
+    [OrderQty] smallint,
+    [UnitPrice] money,
+    [UnitPriceDiscount] money,
+    [LineTotal] numeric(38,6)
+)

@@ -1,0 +1,8 @@
+
+HireDateID
+
+(DT_STR, 8, 1252) YEAR((DT_DATE)[HireDate]) + RIGHT("0" + (DT_STR, 2, 1252) MONTH((DT_DATE)[HireDate]), 2) + RIGHT("0" + (DT_STR, 2, 1252) DAY((DT_DATE)[HireDate]), 2)
+
+BirthDateID
+
+(DT_STR, 8, 1252) YEAR((DT_DATE)[BirthDate]) + RIGHT("0" + (DT_STR, 2, 1252) MONTH((DT_DATE)[BirthDate]), 2) + RIGHT("0" + (DT_STR, 2, 1252) DAY((DT_DATE)[BirthDate]), 2)

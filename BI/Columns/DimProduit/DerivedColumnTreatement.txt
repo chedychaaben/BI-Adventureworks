@@ -1,0 +1,6 @@
+UPPER(TRIM(ProductLine)) == "R" ? "Road" : UPPER(TRIM(ProductLine)) == "M" ? "Mountain" : UPPER(TRIM(ProductLine)) == "T" ? "Touring" : UPPER(TRIM(ProductLine)) == "S" ? "Standard" : "Rien"
+
+UPPER(TRIM(Class)) == "H" ? "High" : UPPER(TRIM(Class)) == "M" ? "Medium" : UPPER(TRIM(Class)) == "L" ? "Low" : "Rien"
+
+
+UPPER(TRIM(Style)) == "U" ? "Universal" : UPPER(TRIM(Style)) == "W" ? "Women's" : UPPER(TRIM(Style)) == "M" ? "Men's" : "Rien"
