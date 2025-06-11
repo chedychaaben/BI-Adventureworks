@@ -31,7 +31,19 @@ We dove into the **Adventure Works database**, exploring key schemas:
 
 ### 2. ⚙️ ETL Process (Extraction, Transformation, Loading)
 
-Using **SQL Server Integration Services (SSIS)** and **SQL**, we crafted a robust ETL pipeline to populate our data warehouse:
+Using **SQL Server Integration Services (SSIS)** and **SQL**, we crafted a robust ETL pipeline to populate our data warehouse. Below are snapshots of the SSIS treatment processes for the fact and dimension tables:
+
+![SSIS Treatment for FactEnMagasin](images/ssis_factenmagasin.png)  
+*SSIS package for processing the FactEnMagasin table*
+
+![SSIS Treatment for DimProduit](images/ssis_dimproduit.png)  
+*SSIS package for processing the DimProduit dimension*
+
+![SSIS Treatment for DimTerritory](images/ssis_dimterritory.png)  
+*SSIS package for processing the DimTerritory dimension*
+
+![SSIS Treatment for DimPersonnel](images/ssis_dimpersonnel.png)  
+*SSIS package for processing the DimPersonnel dimension*
 
 - **Fact Table: FactEnMagasin** 📊
   - **Source**: `Sales.SalesOrderHeader`, `Sales.SalesOrderDetails`
@@ -56,6 +68,11 @@ Using **SQL Server Integration Services (SSIS)** and **SQL**, we crafted a robus
     - **Primary Key**: `DateKey`
     - **Attributes**: `DateValue`, `Year`, `Month`, `Day`, `MonthName`, `DayOfWeek`, `DayName`, `Quarter`
 
+Below is the schema view of the data warehouse tables, showing the relationships between the fact and dimension tables:
+
+![Data Warehouse Tables View](images/dw_tables_view.png)  
+*Schema of the data warehouse with FactEnMagasin and dimension tables*
+
 ### 3. 🧊 OLAP Cube Creation
 
 We supercharged our analysis with a multidimensional **OLAP cube**:
@@ -67,10 +84,49 @@ We supercharged our analysis with a multidimensional **OLAP cube**:
 
 ### 4. 🎨 Visualization
 
-We created an **interactive Power BI dashboard** to bring data to life! 📉📈 It visualizes **Sales**, **Products**, and **Employee** metrics, making insights accessible and actionable.
+We created an **interactive Power BI dashboard** to bring data to life! 📉📈 It visualizes **Sales**, **Products**, and **Employee** metrics, making insights accessible and actionable. Below is a preview of the dashboard:
 
-🔗 **Explore the Power BI Dashboard**: Link to dashboard\
-*(Note: Replace with the actual link or file path, e.g.,* `dashboard.pbix` *in the repository)*
+# Power BI Business Intelligence Dashboards
+
+This repository contains a collection of interactive **Power BI dashboards** designed to provide actionable insights across key areas of a business including navigation, products, sales, and employee performance.
+
+## 📊 Dashboards Overview
+
+### 🧭 Navigation Page
+![Navigation Dashboard](images/powerbi_dashboard_navigationpage.png)  
+*Interactive Power BI dashboard – Navigation Page for accessing various business insights.*
+
+- Serves as the central hub for dashboard navigation.
+- Provides quick links to individual reports on products, sales, and employees.
+
+---
+
+### 📦 Product Dashboard
+![Product Dashboard](images/powerbi_dashboard_products.png)  
+*Interactive Power BI dashboard – Visualizing product performance and inventory metrics.*
+
+- Displays key KPIs like product sales, stock levels, and product categories.
+- Helps identify top-performing and underperforming products.
+
+---
+
+### 💰 Sales Dashboard
+![Sales Dashboard](images/powerbi_dashboard_sales.png)  
+*Interactive Power BI dashboard – Tracking sales trends, revenue, and regional performance.*
+
+- Provides insights into sales over time, segmented by region and category.
+- Enables performance comparison against targets and previous periods.
+
+---
+
+### 👩‍💼 Employee Dashboard
+![Employee Dashboard](images/powerbi_dashboard_employee.png)  
+*Interactive Power BI dashboard – Analyzing employee data, performance, and HR insights.*
+
+- Highlights metrics such as employee count, turnover rate, and department-wise distribution.
+- Supports HR in making data-driven decisions on workforce management.
+
+---
 
 ## 🏆 Achievements
 
@@ -92,7 +148,6 @@ To run this project, you’ll need:
 Get started in a few simple steps:
 
 1. Clone the repository:
-
    ```bash
    git clone <repository-url>
    ```
@@ -120,3 +175,7 @@ A huge thank you to **Adventure Works Cycles** for providing the sample database
 ## 📬 Contact
 
 Have questions or feedback? Reach out to us via chedychaaben@gmail.com or open an issue in the repository! 📩
+
+---
+
+**Thank you for exploring our BI journey!** 🚴‍♂️ Happy analyzing! 😄
